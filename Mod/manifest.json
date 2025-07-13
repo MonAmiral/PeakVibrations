@@ -1,0 +1,9 @@
+{
+  "name": "PeakVibrations",
+  "displayName": "Peak Vibrations",
+  "authorName": "MonAmiral",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/MonAmiral/PeakVibrations",
+  "description": "Allows you to connect your buttplug to PEAK",
+  "dependencies": ["BepInEx-BepInExPack_PEAK-5.4.2403"]
+}

@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+	<RootNamespace>PeakVibrations</RootNamespace>
+	<AssemblyName>PeakVibrations</AssemblyName>
+	<Description>Peak mod allowing you to connect sex toys to the game.</Description>
+	<Product>PeakVibrations</Product>
+    <Version>1.0.0</Version>
+	<PublishSingleFile>true</PublishSingleFile>
+	<PublishTrimmed>true</PublishTrimmed>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<Reference Include="0Harmony">
+	  <HintPath>libs\0Harmony.dll</HintPath>
+	</Reference>
+	<Reference Include="BepInEx">
+	  <HintPath>libs\BepInEx.dll</HintPath>
+	</Reference>
+	<Reference Include="BepInEx.Harmony">
+	  <HintPath>libs\BepInEx.Harmony.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+	<Reference Include="Assembly-CSharp">
+	  <HintPath>..\..\..\..\SteamLibrary\steamapps\common\PEAK\PEAK_Data\Managed\Assembly-CSharp.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEngine">
+	  <HintPath>..\..\..\..\SteamLibrary\steamapps\common\PEAK\PEAK_Data\Managed\UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEngine.CoreModule">
+	  <HintPath>..\..\..\..\SteamLibrary\steamapps\common\PEAK\PEAK_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEngine.InputLegacyModule">
+	  <HintPath>..\..\..\..\SteamLibrary\steamapps\common\PEAK\PEAK_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+	<PackageReference Include="Buttplug" Version="4.0.0">
+	  <PrivateAssets>all</PrivateAssets>
+	</PackageReference>
+  </ItemGroup>
+  
+</Project>
